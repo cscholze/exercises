@@ -4,7 +4,7 @@
 // A score between 81-90 is a B
 // A score between 91-100 is an A
 
-var scores = [82, 71, 95, 55, 98, 69, 72, 78, 84, 64, 58, 87];
+var scores = [82, 71, 95, 46, 55, 98, 69, 72, 78, 84, 64, 58, 87];
 console.log("Scores: ",scores);
 
 var aGrades = 0;
@@ -20,8 +20,7 @@ for (var i=0; i < scores.length; i++) {
 	else if (scores[i] > 70) { cGrades++}
 	else if (scores[i] > 60) { dGrades++}
 	else if (scores[i] > 49) { fGrades++}
-	else {
-		console.log("Student "+i+"Score below 50, please have Parent/Teacher Conference")}
+	else {console.log ("Student "+(i+1)+" Score below 50, please have Parent/Teacher Conference")}
 }
 
 console.log("There are "+aGrades+" A's");

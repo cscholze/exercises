@@ -1,0 +1,12 @@
+Navigation Shortcuts
+cursor left: 'h'
+cursor right: 'l'
+cursor up: 'l'
+cursor down 'j'
+page up: ctrl + 'u'
+page down: ctrl + 'd'
+beginning of line: shift + '6'
+end of line: shift + '4'
+
+
+Display Line Numbers: ':set number'
